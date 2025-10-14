@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1>🎓 Student Task Manager</h1>
+            <p class="subtitle">Track, filter, and manage your academic tasks simple and responsive.</p>
+        </header>
+
+        <form id="task-form" aria-label="Add task form">
+            <input type="hidden" id="task-id">
+
+            <div class="form-group">
+                <label for="task-name">Task Name</label>
+                <input type="text" id="task-name" placeholder="e.g., Lab Report" required aria-label="Task name">
+                <div class="error-message" id="error-name" aria-live="polite"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="task-course">Course</label>
+                <input type="text" id="task-course" placeholder="e.g., Web Development" required aria-label="Course">
+                <div class="error-message" id="error-course" aria-live="polite"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="task-deadline">Deadline</label>
+                <input type="date" id="task-deadline" required aria-label="Task deadline">
+                <div class="error-message" id="error-deadline" aria-live="polite"></div>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" id="submit-button">Add Task</button>
+                <button type="button" id="cancel-edit-button" class="hidden">Cancel</button>
+            </div>
+        </form>
+
+        <hr>
+
+        <h2>Task List</h2>
+        <div class="filters" role="region" aria-label="Filter tasks">
+            <div class="search-wrap">
+                <input type="text" id="search-input" placeholder="Search tasks..." aria-label="Search tasks">
+            </div>
+            <div class="select-wrap">
+                <select id="filter-status" aria-label="Filter status">
+                    <option value="all">All statuses</option>
+                    <option value="incomplete">Incomplete</option>
+                    <option value="completed">Completed</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <p>Incomplete tasks: <span id="unfinished-count">0</span></p>
+        </div>
+
+        <ul id="task-list" aria-live="polite">
+        </ul>
+        <div class="empty-state" id="empty-state" aria-hidden="true">
+            <p class="empty-title">No tasks yet</p>
+            <p class="empty-sub">Add your first task using the form above. You can also search or filter tasks.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
