@@ -23,27 +23,27 @@ Here are several views of the application:
 
 **1. Main View with Several Tasks**
 
-![Main View](screenshots/main-view.png)
-*Shows the main interface with a list of tasks, including both completed and incomplete tasks. The modern card-based design makes it easy to scan through tasks.*
+![Main View]([screenshots/main-view.png](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/main/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/homepage.png)
+*Shows the main interface of the application, including both completed and incomplete tasks. The modern card-based design makes it easy to scan through tasks.*
 
 **2. Form for Adding or Editing Tasks**
 
-![Add Task Form](screenshots/add-task-form.png)
+![Add Task Form](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/main/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/homepage.png)
 *The form includes validation - all fields are required and the deadline cannot be in the past. Error messages appear inline below invalid fields.*
 
 **3. View After Using "Completed" Status Filter**
 
-![Filter View](screenshots/filter-view.png)
-*Demonstrates the filtering functionality, showing only completed tasks. The search bar allows filtering by task name as well.*
+![Filter View](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/main/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/complete%2C%20undo%2C%20edit%2C%20and%20delete.png)
+*Demonstrates the functionality, showing completed, undo, edit and delete tasks. The search bar allows filtering by task name or course name as well.*
 
 **4. Form Validation in Action**
 
-![Validation](screenshots/validation.png)
+![Validation](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/main/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/validation%20deadline.png)
 *Shows inline error messages when users attempt to submit invalid data (empty fields or past deadlines).*
 
 **5. Empty State**
 
-![Empty State](screenshots/empty-state.png)
+![Empty State](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/e9787facd4d9d2f17337cb0c0ee1023a768a2d25/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/empty-state.png)
 *User-friendly message displayed when no tasks match the current filter or when the list is empty.*
 
 *(Note: Add actual screenshots by replacing the placeholder paths above)*
