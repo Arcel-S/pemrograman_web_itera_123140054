@@ -23,7 +23,7 @@ Here are several views of the application:
 
 **1. Main View with Several Tasks**
 
-![Main View]([screenshots/main-view.png](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/main/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/homepage.png)
+![Main View](https://github.com/Arcel-S/pemrograman_web_itera_123140054/blob/main/Marcel%20Kevin%20Togap%20Siagian_123140054_Pertemuan1/image/homepage.png)
 *Shows the main interface of the application, including both completed and incomplete tasks. The modern card-based design makes it easy to scan through tasks.*
 
 **2. Form for Adding or Editing Tasks**
@@ -240,4 +240,5 @@ TUGAS/
 - Dark mode toggle
 - Task notifications/reminders
 - Drag-and-drop reordering
+
 
