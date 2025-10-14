@@ -224,6 +224,13 @@ This approach attaches a single event listener to the parent `<ul>` instead of i
 
 ```
 TUGAS/
+image/
+    ├── complete, undo, edit, and delete.png
+    ├── edit-feature.png
+    ├── empty-state.png
+    ├── form-adding-task.png
+    ├── homepage.png
+    └── validation deadline.png
 ├── index.html          # Main HTML structure
 ├── style.css           # All styling and responsive design
 ├── script.js           # Application logic and localStorage management
@@ -240,6 +247,7 @@ TUGAS/
 - Dark mode toggle
 - Task notifications/reminders
 - Drag-and-drop reordering
+
 
 
 
