@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah - Dashboard Mahasiswa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+      <div class="navbar-links">
+        <a href="dashboard.html" id="nav-beranda">Beranda</a>
+        <a href="rencana-studi.html" id="nav-rencana">Rencana Studi</a>
+        <a href="jadwal-kuliah.html" id="nav-jadwal" class="active">Jadwal Kuliah</a>
+      </div>
+      <div class="navbar-user">
+        <span id="welcome-message">Memuat...</span>
+        <button id="logout-btn-nav" class="btn btn-secondary">Logout</button>
+      </div>
+    </nav>
+
+    <main class="page-container">
+        <section id="form-jadwal-container" class="card">
+            <h2>Input Jadwal Kuliah</h2>
+            <form id="form-tambah-jadwal" class="form-grid">
+                <input type="text" id="jadwal-kode" placeholder="Kode MK (cth: IF2101)" required>
+                <input type="text" id="jadwal-matkul" placeholder="Nama Mata Kuliah" required>
+                <input type="text" id="jadwal-dosen" placeholder="Dosen Pengampu" required>
+                <input type="text" id="jadwal-waktu" placeholder="Waktu (cth: Senin, 08:00-10:00)" required>
+                <input type="text" id="jadwal-ruangan" placeholder="Ruangan (cth: C301)" required>
+                <button type="submit" class="btn" style="grid-column: 1 / -1;">Tambah Jadwal</button>
+            </form>
+        </section>
+
+        <section id="jadwal-container" class="card">
+            <h2>Daftar Jadwal Kuliah</h2>
+            <div id="jadwal-table-container" style="overflow-x: auto;">
+                <p>Memuat jadwal...</p>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./modules/jadwal-kuliah.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Dashboard Mahasiswa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+      <div class="navbar-links">
+        <a href="dashboard.html" id="nav-beranda" class="active">Beranda</a>
+        <a href="rencana-studi.html" id="nav-rencana">Rencana Studi</a>
+        <a href="jadwal-kuliah.html" id="nav-jadwal">Jadwal Kuliah</a>
+      </div>
+      <div class="navbar-user">
+        <span id="welcome-message">Memuat...</span>
+        <button id="logout-btn-nav" class="btn btn-secondary">Logout</button>
+      </div>
+    </nav>
+
+    <main class="dashboard-grid-4">
+        
+        <section id="data-diri-container" class="card">
+            </section>
+
+        <section id="left-container" class="card">
+            <h2>Indeks Prestasi</h2>
+            <form id="form-tambah-ip" class="form-grid">
+                <input type="number" id="ip-semester" placeholder="Semester" min="1" max="14" required>
+                <input type="number" id="ip-value" placeholder="IP Semester" step="0.01" min="0" max="4" required>
+                <button type="submit" class="btn" style="grid-column: 1 / -1;">Tambah IP</button>
+            </form>
+            <hr>
+            <div id="ip-list-container">
+                </div>
+        </section>
+
+        <section id="center-container" class="card">
+            <h2>Target Mata Kuliah</h2>
+            <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 1.5rem;">
+                Data diambil dari halaman "Rencana Studi".
+            </p>
+            <hr>
+            <div id="matkul-list-container">
+                </div>
+        </section>
+
+        <section id="right-container" class="card">
+            <h2>Grafik Perkembangan IPK</h2>
+            <div class="chart-container">
+                <canvas id="ipk-chart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-container" class="modal-overlay">
+        </div>
+
+    <script type="module" src="./modules/dashboard.js"></script>
+</body>
+</html>

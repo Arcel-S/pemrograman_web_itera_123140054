@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rencana Studi - Dashboard Mahasiswa</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+      <div class="navbar-links">
+        <a href="dashboard.html" id="nav-beranda">Beranda</a>
+        <a href="rencana-studi.html" id="nav-rencana" class="active">Rencana Studi</a>
+        <a href="jadwal-kuliah.html" id="nav-jadwal">Jadwal Kuliah</a>
+      </div>
+      <div class="navbar-user">
+        <span id="welcome-message">Memuat...</span>
+        <button id="logout-btn-nav" class="btn btn-secondary">Logout</button>
+      </div>
+    </nav>
+
+    <main class="rencana-grid-3">
+        <section id="form-container" class="card">
+            <h2>Input Target Matakuliah</h2>
+            <form id="form-tambah-matkul" class="form-grid">
+                <input type="text" id="matkul-nama" placeholder="Nama Matkul" required>
+                <input type="text" id="matkul-kode" placeholder="Kode Matkul" required>
+                <input type="number" id="matkul-sks" placeholder="SKS" min="1" required>
+                <select id="matkul-target" required>
+                    <option value="">Pilih Target Nilai...</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+                <button type="submit" class="btn">Tambah Matkul</button>
+            </form>
+        </section>
+
+        <section id="list-container" class="card">
+             <h2>Daftar Target Matakuliah</h2>
+             <hr>
+             <div id="matkul-list-container">
+                </div>
+             
+             <div id="nilai-riil-form-container">
+                </div>
+        </section>
+        
+        <section id="target-chart-container" class="card">
+            <h2>Target Tercapai</h2>
+            <p style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 1.5rem;">
+                Persentase target nilai vs nilai riil.
+            </p>
+            <hr>
+            <div class="chart-container-pie">
+                <canvas id="target-chart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="./modules/rencana-studi.js"></script>
+</body>
+</html>
