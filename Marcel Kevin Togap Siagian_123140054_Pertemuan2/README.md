@@ -14,19 +14,22 @@ Berikut adalah beberapa tangkapan layar dari aplikasi:
 
 ### Halaman Login
 *Halaman login yang bersih untuk autentikasi pengguna.*
-**(SERET & LEPASKAN SCREENSHOT LOGIN ANDA DI SINI)**
+**(<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/fcad53e0-29ce-492a-9bec-b79e522927f6" />)**
 
 ### Halaman Beranda (Dashboard Utama)
 *Tampilan utama 4-kolom yang menampilkan Data Diri, Ringkasan IP, Target Matakuliah, dan Grafik IPK.*
-**(SERET & LEPASKAN SCREENSHOT BERANDA ANDA DI SINI)**
+**(<img width="1914" height="1074" alt="image" src="https://github.com/user-attachments/assets/b99d04ed-6e05-4042-b4d3-836c548ef34f" />
+)**
 
 ### Halaman Rencana Studi
 *Halaman interaktif untuk menambah/mengedit target, menginput nilai riil, dan melihat grafik pencapaian.*
-**(SERET & LEPASKAN SCREENSHOT RENCANA STUDI ANDA DI SINI)**
+**(<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f10c995f-598e-4860-9cd1-31a959058f00" />
+)**
 
 ### Halaman Jadwal Kuliah
 *Halaman untuk menginput dan mengelola jadwal kuliah secara manual.*
-**(SERET & LEPASKAN SCREENSHOT JADWAL KULIAH ANDA DI SINI)**
+**(<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/b7d2007b-5c24-4eff-bb17-4398574869c5" />
+)**
 
 ---
 
