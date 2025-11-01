@@ -81,6 +81,6 @@ Logika *data fetching* (`useState`, `useEffect`, *loading*, dan *error handling*
 
 ---
 
-**Dibuat oleh:** Marcel Kevin Togap Siagian
+**Dibuat oleh:** Marcel Kevin Togap Siagian 
 **NIM:** 1232140054
 **Mata Kuliah:** Pengembangan Aplikasi Web
