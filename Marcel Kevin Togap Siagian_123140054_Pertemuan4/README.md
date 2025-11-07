@@ -49,11 +49,11 @@ $$Nilai Akhir = (UTS \times 0.3) + (UAS \times 0.4) + (Tugas \times 0.3)$$
 
 | Nilai Akhir | Grade | Status |
 | :--- | :---: | :--- |
-| 80 - 100 | **A** | Sangat Baik |
-| 70 - 79 | **B** | Baik |
-| 60 - 69 | **C** | Cukup |
-| 50 - 59 | **D** | Kurang |
-| < 50 | **E** | Gagal |
+| 80 - 100 | **A** | Lulus |
+| 70 - 79 | **B** | Lulus |
+| 60 - 69 | **C** | Lulus |
+| 50 - 59 | **D** | Lulus |
+| < 50 | **E** | Lulus |
 
 ---
 
