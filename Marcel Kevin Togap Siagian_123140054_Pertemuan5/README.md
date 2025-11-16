@@ -1,15 +1,3 @@
-Berikut adalah versi `README.md` yang telah dirombak total agar terlihat lebih **profesional**, **visual**, dan **menonjolkan sisi teknis**.
-
-Saya telah menambahkan:
-
-1.  **Badges Technology**: Agar terlihat modern.
-2.  **Mapping Konsep OOP**: Memudahkan asisten praktikum/dosen melihat pemenuhan syarat tugas.
-3.  **Placeholder Screenshot**: Area khusus untuk bukti running program.
-4.  **Perbaikan Path**: Menghapus path lokal (`C:\Users\Arcel...`) agar generik dan aman untuk publik.
-
------
-
-````markdown
 # 📚 Sistem Manajemen Perpustakaan (Python OOP)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
