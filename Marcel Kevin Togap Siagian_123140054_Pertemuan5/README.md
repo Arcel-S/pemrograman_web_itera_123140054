@@ -35,117 +35,173 @@ classDiagram
     <<Abstract>>
     #item_id
     #title
-    +year
-    +get_info()
-  }
+    # 📚 Sistem Manajemen Perpustakaan (Python OOP)
 
-  class Book {
-    -author
-    +get_info()
-  }
+    ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+    ![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
+    ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-  class Magazine {
-    +edition
-    +get_info()
-  }
+    Proyek ini adalah implementasi **Object-Oriented Programming (OOP)** untuk simulasi manajemen perpustakaan. Sistem ini dibangun sebagai tugas praktikum untuk mendemonstrasikan pemahaman mengenai 4 pilar utama OOP: *Encapsulation*, *Inheritance*, *Abstraction*, dan *Polymorphism*.
 
-  class Library {
-    -items
-    +add_item()
-    +show_items()
-    +search_item()
-    +update_item()
-    +remove_item()
-  }
+    ---
 
-  LibraryItem <|-- Book : Inherits
-  LibraryItem <|-- Magazine : Inherits
-  Library o-- LibraryItem : Aggregates
-```
+    ## 🛠️ Teknologi & Konsep
 
----
+    Proyek ini menggunakan Python standar tanpa dependensi eksternal, berfokus pada struktur kode yang bersih (*Clean Code*).
 
-## 📸 Screenshot Aplikasi
+    | Komponen | Keterangan |
+    | :--- | :--- |
+    | **Bahasa** | Python 3.x |
+    | **Paradigma** | Object-Oriented Programming (OOP) |
+    | **Interface** | Command Line Interface (CLI) |
+    | **Design Pattern** | Sederhana (pembuatan objek terpisah) |
 
-![Menu Utama](https://github.com/user-attachments/assets/46f2635e-96c5-4eae-ab95-6155acd5a716)
-![Tambah Item](https://github.com/user-attachments/assets/82f15ce6-a400-4153-89c9-7678506102fd)
-![Tampilkan Item](https://github.com/user-attachments/assets/c9c6adb1-1680-4ce3-82b0-2d8d5bcce312)
-![Cari Item](https://github.com/user-attachments/assets/ed5e822e-42dc-4c3a-9e82-6f66bcfb645d)
-![Update Item](https://github.com/user-attachments/assets/c160fd30-09f4-4bb2-b926-c71a38a73045)
-![Keluar](https://github.com/user-attachments/assets/ff538599-c84f-48ba-b879-99692aabe445)
+    ### Implementasi OOP
+    * ✅ **Abstract Class**: `LibraryItem` sebagai blueprint dasar.
+    * ✅ **Inheritance**: `Book` dan `Magazine` mewarisi `LibraryItem`.
+    * ✅ **Encapsulation**: Penggunaan `@property`, `@setter`, dan atribut privat (`__author`).
+    * ✅ **Polymorphism**: Method `get_info()` berbeda pada setiap subclass.
 
----
+    ---
 
-## ✨ Fitur Utama
+    ## 🏗️ Desain Sistem (Class Diagram)
 
-* **Interactive CRUD**: Create, Read, Update, dan Delete data Buku/Majalah.
-* **Smart Search**: Pencarian berdasarkan Judul (case-insensitive) atau ID unik.
-* **Flexible Update**: Update parsial — biarkan kosong untuk mempertahankan nilai lama.
-* **Data Integrity**: Validasi ID unik saat penambahan.
-* **Demo Mode**: Mode otomatis untuk demonstrasi cepat.
+    ```mermaid
+    classDiagram
+      class LibraryItem {
+        <<Abstract>>
+        #item_id
+        #title
+        +year
+        +get_info()
+      }
 
----
+      class Book {
+        -author
+        +get_info()
+      }
 
-## 🚀 Cara Menjalankan
+      class Magazine {
+        +edition
+        +get_info()
+      }
 
-### Prasyarat
+      class Library {
+        -items
+        +add_item()
+        +show_items()
+        +search_item()
+        +update_item()
+        +remove_item()
+      }
 
-Pastikan Python 3.8+ terinstal. Periksa versi dengan:
+      LibraryItem <|-- Book : Inherits
+      LibraryItem <|-- Magazine : Inherits
+      Library o-- LibraryItem : Aggregates
+    ```
 
-```bash
-python --version
-```
+    ---
 
-### Langkah Singkat
+    ## 📸 Screenshot Aplikasi
 
-1. Clone atau download repository:
+    Berikut urutan tampilan aplikasi (nomor menunjukkan alur penggunaan):
 
-```bash
-git clone https://github.com/username-anda/pemrograman_python_itera_123140054.git
-```
+    1. Menu Utama
 
-2. Masuk ke direktori project (sesuaikan path jika perlu):
+       ![Menu Utama](https://github.com/user-attachments/assets/46f2635e-96c5-4eae-ab95-6155acd5a716)
 
-```bash
-cd pemrograman_python_itera_123140054/marcel_123140054_pertemuan5
-```
+    2. Tambah Item
 
-3. Jalankan program:
+       ![Tambah Item](https://github.com/user-attachments/assets/82f15ce6-a400-4153-89c9-7678506102fd)
 
-* Mode interaktif:
+    3. Tampilkan Item
 
-```bash
-python main.py
-```
+       ![Tampilkan Item](https://github.com/user-attachments/assets/c9c6adb1-1680-4ce3-82b0-2d8d5bcce312)
 
-* Mode demo (non-interaktif):
+    4. Cari Item
 
-```bash
-python main.py --demo
-```
+       ![Cari Item](https://github.com/user-attachments/assets/ed5e822e-42dc-4c3a-9e82-6f66bcfb645d)
 
----
+    5. Update Item
 
-## 📂 Struktur File
+       ![Update Item](https://github.com/user-attachments/assets/c160fd30-09f4-4bb2-b926-c71a38a73045)
 
-```text
-Marcel Kevin Togap Siagian_123140054 Pertemuan5/
-├── main.py        # Source code utama (Class & Logic)
-└── README.md      # Dokumentasi proyek
-```
+    6. Keluar
 
----
+       ![Keluar](https://github.com/user-attachments/assets/ff538599-c84f-48ba-b879-99692aabe445)
 
-## 📝 Catatan Penggunaan
+    ---
 
-* **ID Unik**: Masukkan ID (angka) yang belum digunakan.
-* **Validasi Tahun**: Jika memasukkan tahun yang bukan angka saat update, perubahan tahun akan diabaikan.
+    ## ✨ Fitur Utama
 
----
+    * **Interactive CRUD**: Create, Read, Update, dan Delete data Buku/Majalah.
+    * **Smart Search**: Pencarian berdasarkan Judul (case-insensitive) atau ID unik.
+    * **Flexible Update**: Update parsial — biarkan kosong untuk mempertahankan nilai lama.
+    * **Data Integrity**: Validasi ID unik saat penambahan.
+    * **Demo Mode**: Mode otomatis untuk demonstrasi cepat.
 
-## 👨‍💻 Author
+    ---
 
-**Marcel Kevin Togap Siagian** - NIM: 123140054  
-Teknik Informatika - Institut Teknologi Sumatera (ITERA)
+    ## 🚀 Cara Menjalankan
 
----
+    ### Prasyarat
+
+    Pastikan Python 3.8+ terinstal. Periksa versi dengan:
+
+    ```bash
+    python --version
+    ```
+
+    ### Langkah Singkat
+
+    1. Clone atau download repository:
+
+    ```bash
+    git clone https://github.com/username-anda/pemrograman_python_itera_123140054.git
+    ```
+
+    2. Masuk ke direktori project (sesuaikan path jika perlu):
+
+    ```bash
+    cd pemrograman_python_itera_123140054/marcel_123140054_pertemuan5
+    ```
+
+    3. Jalankan program:
+
+    * Mode interaktif:
+
+    ```bash
+    python main.py
+    ```
+
+    * Mode demo (non-interaktif):
+
+    ```bash
+    python main.py --demo
+    ```
+
+    ---
+
+    ## 📂 Struktur File
+
+    ```text
+    Marcel Kevin Togap Siagian_123140054 Pertemuan5/
+    ├── main.py        # Source code utama (Class & Logic)
+    └── README.md      # Dokumentasi proyek
+    ```
+
+    ---
+
+    ## 📝 Catatan Penggunaan
+
+    * **ID Unik**: Masukkan ID (angka) yang belum digunakan.
+    * **Validasi Tahun**: Jika memasukkan tahun yang bukan angka saat update, perubahan tahun akan diabaikan.
+
+    ---
+
+    ## 👨‍💻 Author
+
+    **Marcel Kevin Togap Siagian** - NIM: 123140054  
+    Teknik Informatika - Institut Teknologi Sumatera (ITERA)
+
+    ---
