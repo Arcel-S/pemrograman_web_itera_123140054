@@ -29,6 +29,8 @@ Proyek ini dibangun menggunakan *native* Python tanpa library eksternal yang ber
 
 ## 📸 Screenshot Aplikasi
 
+## 📸 Screenshot Aplikasi
+
 ### 1. Tampilan Menu Utama
 <img src="https://github.com/user-attachments/assets/46f2635e-96c5-4eae-ab95-6155acd5a716" alt="Menu Utama" width="600" />
 
