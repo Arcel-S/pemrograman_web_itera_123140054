@@ -1,3 +1,4 @@
+````markdown
 # 📚 Sistem Manajemen Perpustakaan (Python OOP)
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -14,7 +15,7 @@ Proyek ini dibangun menggunakan *native* Python tanpa library eksternal yang ber
 
 | Komponen | Keterangan |
 | :--- | :--- |
-| **Bahasa** | Python 3.12 |
+| **Bahasa** | Python 3.x |
 | **Paradigma** | Object-Oriented Programming (OOP) |
 | **Interface** | Command Line Interface (CLI) |
 | **Design Pattern** | Factory Method (Sederhana pada pembuatan objek) |
@@ -63,46 +64,57 @@ classDiagram
     LibraryItem <|-- Book : Inherits
     LibraryItem <|-- Magazine : Inherits
     Library o-- LibraryItem : Aggregates
+````
+
+-----
 
 ## 📸 Screenshot Aplikasi
 
-### 1. Tampilan Menu Utama
-<img src="https://github.com/user-attachments/assets/46f2635e-96c5-4eae-ab95-6155acd5a716" alt="Menu Utama" width="600" />
+### 1\. Tampilan Menu Utama
 
-### 2. Tambah Item
-<img src="https://github.com/user-attachments/assets/82f15ce6-a400-4153-89c9-7678506102fd" alt="Tambah Item" width="600" />
+\<img src="https://github.com/user-attachments/assets/46f2635e-96c5-4eae-ab95-6155acd5a716" alt="Menu Utama" width="600" /\>
 
-### 3. Tampilkan Item
-<img src="https://github.com/user-attachments/assets/c9c6adb1-1680-4ce3-82b0-2d8d5bcce312" alt="Tampilkan Item" width="600" />
+### 2\. Tambah Item
 
-### 4. Cari Item
-<img src="https://github.com/user-attachments/assets/ed5e822e-42dc-4c3a-9e82-6f66bcfb645d" alt="Cari Item" width="600" />
+\<img src="https://github.com/user-attachments/assets/82f15ce6-a400-4153-89c9-7678506102fd" alt="Tambah Item" width="600" /\>
 
-### 5. Update Item
-<img src="https://github.com/user-attachments/assets/c160fd30-09f4-4bb2-b926-c71a38a73045" alt="Update Item" width="600" />
+### 3\. Tampilkan Item
 
-### 6. Keluar
-<img src="https://github.com/user-attachments/assets/ff538599-c84f-48ba-b879-99692aabe445" alt="Keluar" width="400" />
+\<img src="https://github.com/user-attachments/assets/c9c6adb1-1680-4ce3-82b0-2d8d5bcce312" alt="Tampilkan Item" width="600" /\>
 
----
+### 4\. Cari Item
+
+\<img src="https://github.com/user-attachments/assets/ed5e822e-42dc-4c3a-9e82-6f66bcfb645d" alt="Cari Item" width="600" /\>
+
+### 5\. Update Item
+
+\<img src="https://github.com/user-attachments/assets/c160fd30-09f4-4bb2-b926-c71a38a73045" alt="Update Item" width="600" /\>
+
+### 6\. Keluar
+
+\<img src="https://github.com/user-attachments/assets/ff538599-c84f-48ba-b879-99692aabe445" alt="Keluar" width="400" /\>
+
+-----
 
 ## ✨ Fitur Utama
 
-* **Interactive CRUD**: Create, Read, Update, dan Delete data Buku/Majalah secara *real-time*.
-* **Smart Search**: Pencarian data berdasarkan Judul (Case-insensitive) atau ID unik.
-* **Flexible Update**: Sistem update parsial (biarkan kosong jika data tidak ingin diubah).
-* **Data Integrity**: Validasi ID unik saat penambahan data baru.
-* **Demo Mode**: Mode otomatis untuk demonstrasi cepat tanpa input manual.
+  * **Interactive CRUD**: Create, Read, Update, dan Delete data Buku/Majalah secara *real-time*.
+  * **Smart Search**: Pencarian data berdasarkan Judul (Case-insensitive) atau ID unik.
+  * **Flexible Update**: Sistem update parsial (biarkan kosong jika data tidak ingin diubah).
+  * **Data Integrity**: Validasi ID unik saat penambahan data baru.
+  * **Demo Mode**: Mode otomatis untuk demonstrasi cepat tanpa input manual.
 
----
+-----
 
 ## 🚀 Cara Menjalankan
 
 ### Prasyarat
+
 Pastikan Python 3.8+ sudah terinstal. Cek dengan:
+
 ```bash
 python --version
-````
+```
 
 ### Langkah Instalasi
 
@@ -122,28 +134,25 @@ python --version
 3.  **Jalankan Program**
 
       * **Mode Interaktif (User Interface):**
+
         ```bash
         python main.py
         ```
 
-    <!-- end list -->
+      * **Mode Demo (Otomatis):**
 
-    ````
-    
-    * **Mode Demo (Otomatis):**
         ```bash
         python main.py --demo
-    ````
+        ```
 
 -----
 
 ## 📂 Struktur File
 
 ```text
-Marcel Kevin Togap Siagian_123140054 Pertemuan5/
+Marcel Kevin Togap Siagian_123140054_Pertemuan5/
 ├── main.py        # Source code utama (Class & Logic)
 └── README.md      # Dokumentasi proyek
-
 ```
 
 -----
@@ -157,5 +166,7 @@ Marcel Kevin Togap Siagian_123140054 Pertemuan5/
 
 ## 👨‍💻 Author
 
-**Marcel Kevin Togap Siagian** NIM: 123140054  
+**Marcel Kevin Togap Siagian** - NIM: 123140054  
 Teknik Informatika - Institut Teknologi Sumatera (ITERA)
+
+```
