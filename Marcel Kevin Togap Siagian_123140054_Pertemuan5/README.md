@@ -29,13 +29,29 @@ Proyek ini dibangun menggunakan *native* Python tanpa library eksternal yang ber
 
 ## 📸 Screenshot Aplikasi
 
-> *Silakan ganti gambar di bawah ini dengan screenshot hasil terminal Anda sendiri.*
-
 ### 1. Tampilan Menu Utama
-![Tampilan Menu](https://placehold.co/600x200/png?text=Screenshot+Menu+Utama+Di+Sini)
+![Tampilan Menu](<img width="582" height="294" alt="image" src="https://github.com/user-attachments/assets/46f2635e-96c5-4eae-ab95-6155acd5a716" />
+)
 
-### 2. Contoh Fitur Pencarian & CRUD
-![Tampilan Search](https://placehold.co/600x200/png?text=Screenshot+Hasil+Pencarian+Di+Sini)
+### 2. Tambah Item
+![Tampilan Search](<img width="648" height="329" alt="image" src="https://github.com/user-attachments/assets/82f15ce6-a400-4153-89c9-7678506102fd" />
+)
+
+### 3. Tampilkan Item
+![Tampilan Search](<img width="883" height="146" alt="image" src="https://github.com/user-attachments/assets/c9c6adb1-1680-4ce3-82b0-2d8d5bcce312" />
+)
+
+### 4. Cari Item
+![Tampilan Search](<img width="869" height="276" alt="image" src="https://github.com/user-attachments/assets/ed5e822e-42dc-4c3a-9e82-6f66bcfb645d" />
+)
+
+### 5. Update Item
+![Tampilan Search](<img width="555" height="156" alt="image" src="https://github.com/user-attachments/assets/c160fd30-09f4-4bb2-b926-c71a38a73045" />
+)
+
+### 6. Keluar
+![Tampilan Search](<img width="431" height="214" alt="image" src="https://github.com/user-attachments/assets/ff538599-c84f-48ba-b879-99692aabe445" />
+)
 
 ---
 
