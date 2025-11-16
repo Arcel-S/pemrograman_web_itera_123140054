@@ -107,8 +107,8 @@ python --version
 ```text
 Marcel Kevin Togap Siagian_123140054 Pertemuan5/
 ├── main.py        # Source code utama (Class & Logic)
-├── README.md      # Dokumentasi proyek
-└──
+└── README.md      # Dokumentasi proyek
+
 ```
 
 -----
